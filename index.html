@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Miniapp de ALPESUM: descubre una selección de productos profesionales para automoción y taller, consulta precios y accede a la tienda online." />
+  <meta name="theme-color" content="#111827" />
+  <title>ALPESUM | Selección profesional para tu taller</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Saltar al catálogo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="Inicio ALPESUM">
+        <img src="./assets/images/logo/alpesum-logo.png" alt="ALPESUM" width="251" height="123" />
+      </a>
+      <nav class="header-actions" aria-label="Acciones principales">
+        <a class="header-link" data-store-url href="https://alpesum.com/es/" target="_blank" rel="noopener noreferrer">Tienda online</a>
+        <a class="btn btn-primary btn-compact" id="header-contact" data-contact-url href="https://alpesum.com/es/contactanos" target="_blank" rel="noopener noreferrer">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <img src="./assets/images/banners/alpesum-hero.png" alt="" width="1600" height="900" />
+
+    <section class="catalog-section" id="catalogo" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Selección destacada</p>
+          <h2 id="catalog-title">Productos para profesionales</h2>
+          <p class="section-lead">Consulta detalles y accede a la ficha de cada producto en la tienda online de ALPESUM. Para comprar, te redirigiremos a la web oficial.</p>
+        </div>
+
+        <div id="product-catalog" class="product-grid" aria-live="polite">
+          <!-- Las tarjetas se generan dinámicamente desde js/products.js -->
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-cta" aria-labelledby="brand-cta-title">
+      <div class="container brand-cta-inner">
+        <div>
+          <p class="eyebrow">ALPESUM</p>
+          <h2 id="brand-cta-title">Soluciones profesionales para cada trabajo.</h2>
+          <p>Encuentra el catálogo completo, disponibilidad y opciones de compra en nuestra tienda online.</p>
+        </div>
+        <a class="btn btn-primary btn-large" data-store-url href="https://alpesum.com/es/" target="_blank" rel="noopener noreferrer">Visitar tienda ALPESUM</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="./assets/images/logo/alpesum-logo.png" alt="ALPESUM" width="251" height="123" loading="lazy" />
+        <p>Comercialización de productos y equipamiento para el sector de la automoción, talleres profesionales, chapa y pintura.</p>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Tienda</h2>
+        <ul>
+          <li><a id="footer-store" data-store-url href="https://alpesum.com/es/" target="_blank" rel="noopener noreferrer">Tienda online ALPESUM</a></li>
+          <li><a id="footer-about" href="https://alpesum.com/es/content/4-sobre-nosotros" target="_blank" rel="noopener noreferrer">Sobre nosotros</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Contacto</h2>
+        <ul>
+          <li><a id="footer-phone" href="tel:+34644151389">644 15 13 89</a></li>
+          <li><a id="footer-whatsapp" href="https://wa.me/34644151389" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a id="footer-email" href="mailto:info@alpesum.com">info@alpesum.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Información legal</h2>
+        <ul>
+          <li><a id="footer-terms" href="https://alpesum.com/es/content/3-terminos-y-condiciones-de-uso" target="_blank" rel="noopener noreferrer">Términos y condiciones</a></li>
+          <li><span class="footer-note">Consulta los avisos legales y la política de privacidad vigentes en la web oficial de ALPESUM.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="current-year">2026</span> ALPESUM LEVANTE SL. Miniapp informativa: las compras se gestionan en la tienda online oficial.</p>
+    </div>
+  </footer>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/products.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

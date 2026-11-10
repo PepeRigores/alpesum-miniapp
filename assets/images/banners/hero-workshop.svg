@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Taller profesional de automoción">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.75"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1280" cy="360" r="260" fill="url(#accent)" fill-opacity="0.12"/>
+  <circle cx="1420" cy="520" r="180" fill="#ffffff" fill-opacity="0.03"/>
+  <g transform="translate(980 250)" fill="none" stroke="#ffffff" stroke-width="10" stroke-opacity="0.18">
+    <path d="M120 0 L220 60 L220 180 L120 240 L20 180 L20 60 Z"/>
+    <circle cx="120" cy="120" r="42"/>
+    <path d="M120 78 V30 M120 210 V162 M78 120 H30 M210 120 H162 M90 90 L56 56 M184 184 L150 150 M150 90 L184 56 M56 184 L90 150" stroke-width="8"/>
+  </g>
+  <g transform="translate(1180 470)" fill="none" stroke="#f97316" stroke-width="8" stroke-opacity="0.22">
+    <circle cx="80" cy="80" r="70"/>
+    <circle cx="80" cy="80" r="24"/>
+    <path d="M80 10 V34 M80 126 V150 M10 80 H34 M126 80 H150 M30 30 L47 47 M113 113 L130 130 M130 30 L113 47 M47 113 L30 130"/>
+  </g>
+  <rect x="0" y="820" width="1600" height="80" fill="url(#accent)" fill-opacity="0.18"/>
+</svg>

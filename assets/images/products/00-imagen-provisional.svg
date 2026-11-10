@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Imagen de producto provisional">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#pbg)"/>
+  <rect x="48" y="48" width="704" height="704" rx="24" fill="#ffffff" fill-opacity="0.55" stroke="#d1d5db"/>
+  <g transform="translate(400 340)" fill="none" stroke="#9ca3af" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-110" y="-90" width="220" height="180" rx="16"/>
+    <circle cx="-35" cy="-20" r="22"/>
+    <path d="M-110 70 L-35 10 L35 60 L110 0"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#6b7280">IMAGEN PROVISIONAL</text>
+  <text x="400" y="566" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#9ca3af">Sustituir por fotografía del producto</text>
+</svg>
